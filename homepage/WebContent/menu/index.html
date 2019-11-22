@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style type="text/css">
+body {
+	padding-top: 0px;
+	padding-bottom: 40px;
+}
+</style>
+<title>Main page</title>
+</head>
+<body>
+		<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Main Page</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">소개<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="road.html">오시는 길</a></li>
+						<li><a href="#">소개글</a></li>
+						<li><a href="#">연혁</a></li>
+					</ul></li>
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">다운로드<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">TEST01</a></li>
+						<li><a href="#">TEST02</a></li>
+						<li><a href="#">TEST03</a></li>
+					</ul></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href=""><span class="glyphicon glyphicon-user"></span>Sign
+						Up</a></li>
+				<li><a href="login.html"><span
+						class="glyphicon glyphicon-log-in"></span>Login</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container">
+		<h3>제품명</h3>
+		<p>타 사 제품과는 다른 서비스를 제공합니다.</p>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<a target="_blank"> <img src="lights.jpg" alt="Lights"
+						style="width: 100%">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="page-header row">
+			<div class="col-sm-4">
+				<img src="<%=root%>/menu/img_chania.jpg"
+					class="img-responsive img-thumbnail" alt="Cinque Terre">
+			</div>
+			<div class="col-sm-8">
+				<h1>Homepage</h1>
+			</div>
+		</div>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="<%=root%>/index.jsp">Home</a></li>
+			<li class="dropdown"><a class="dropdown-toggle"
+				data-toggle="dropdown" href="#">메모 <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="<%=root%>/memo/list.jsp">메모 목록</a></li>
+					<li><a href="<%=root%>/memo/createForm.jsp">메모 생성 </a></li>
+				</ul></li>
+			<li><a href="#">Menu 2</a></li>
+			<li><a href="#">Menu 3</a></li>
+		</ul>
+	</div>
+	
+
+</body>
+</html>
