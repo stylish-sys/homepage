@@ -4,9 +4,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>기본 페이지</title>
+<title>안녕하세요.</title>
 </head>
 	<jsp:include page="/topmain.jsp"/>	
+	<h2>안녕하세요.</h2>
 <body>
 </body>
 </html>
